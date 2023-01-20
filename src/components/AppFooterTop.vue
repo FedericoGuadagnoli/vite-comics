@@ -160,7 +160,7 @@ ul li {
 }
 
 .col h2 {
-    margin: 25px 0;
+    margin: 50px 0 25px 0;
 }
 
 ul li a {
