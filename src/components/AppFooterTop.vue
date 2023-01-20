@@ -120,7 +120,7 @@ export default {
 </template>
 
 
-<style scoped>
+<style lang="scss" scoped>
 .footer-top {
     height: 80%;
     background-image: url(../assets/img/footer-bg.jpg);
@@ -134,36 +134,39 @@ export default {
     align-items: center;
     color: white;
     height: 100%;
+
+    .col {
+        flex-basis: 50%;
+        display: flex;
+        font-size: 1.25rem;
+        gap: 5rem;
+        height: 100%;
+        overflow: hidden;
+
+        figure {
+            width: 100%;
+            text-align: end;
+
+            img {
+                overflow: hidden;
+            }
+        }
+
+        h2 {
+            margin: 50px 0 25px 0;
+        }
+    }
 }
 
-.row .col {
-    flex-basis: 50%;
-    display: flex;
-    font-size: 1.25rem;
-    gap: 5rem;
-    height: 100%;
-    overflow: hidden;
-}
 
-.col figure {
-    width: 100%;
-    text-align: end;
-}
 
-.col figure img {
-    overflow: hidden;
-}
 
 ul li {
     margin: 10px 0;
     list-style-type: none;
-}
 
-.col h2 {
-    margin: 50px 0 25px 0;
-}
-
-ul li a {
-    color: white;
+    a {
+        color: white;
+    }
 }
 </style>

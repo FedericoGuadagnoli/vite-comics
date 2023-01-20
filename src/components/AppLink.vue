@@ -77,28 +77,25 @@ export default {
 
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 ul {
     display: flex;
     align-items: center;
-}
-
-ul li {
-    list-style-type: none;
-    margin-right: 2rem;
-    font-size: 1.25rem;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-ul,
-li {
     height: 100%;
-}
 
-ul li a {
-    color: black;
+    li {
+        list-style-type: none;
+        margin-right: 2rem;
+        font-size: 1.25rem;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        height: 100%;
+
+        a {
+            color: black;
+        }
+    }
 }
 
 .active {

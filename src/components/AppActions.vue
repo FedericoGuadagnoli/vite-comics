@@ -53,32 +53,32 @@ export default {
 </template>
 
 
-<style scoped>
+<style lang="scss" scoped>
 ul {
     display: flex;
     align-items: center;
     height: 100%;
-}
 
-ul li {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1.25rem;
-    flex-basis: calc(25% - 1.25rem);
-    height: 60%;
-    cursor: pointer;
-}
+    li {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.25rem;
+        flex-basis: calc(25% - 1.25rem);
+        height: 60%;
+        cursor: pointer;
 
-li img {
-    width: 5rem;
-    height: auto;
+        img {
+            width: 5rem;
+            height: auto;
 
-}
+        }
 
-ul li a {
-    color: white;
-    font-size: x-large
+        a {
+            color: white;
+            font-size: x-large
+        }
+    }
 }
 </style>

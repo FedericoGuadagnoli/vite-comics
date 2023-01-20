@@ -49,7 +49,7 @@ export default {
 
 </template>
 
-<style>
+<style lang="scss">
 /* RESET */
 * {
   margin: 0;
@@ -72,14 +72,15 @@ a {
 /* HEADER */
 header {
   height: 150px;
+
+  .navbar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
-.navbar {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
 /* MAIN */
 #Content-Goes-Here {

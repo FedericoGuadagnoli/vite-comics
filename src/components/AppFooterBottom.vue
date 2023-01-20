@@ -28,35 +28,35 @@ export default {
 </template>
 
 
-<style scoped>
+<style lang="scss" scoped>
 .footer-bottom {
     background-color: #303030;
     height: 20%;
-}
 
-.footer-bottom .row {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    .row {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
-.col .btn {
-    background-color: transparent;
-    font-size: 1.25rem;
-    padding: 15px;
-    border: 3px solid rgb(16, 120, 224);
-    color: white;
-    text-transform: uppercase;
-}
+        .col {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            color: rgb(16, 120, 224);
 
-.col {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    color: rgb(16, 120, 224);
+            .btn {
+                background-color: transparent;
+                font-size: 1.25rem;
+                padding: 15px;
+                border: 3px solid rgb(16, 120, 224);
+                color: white;
+                text-transform: uppercase;
+            }
 
+        }
+    }
 }
 </style>
