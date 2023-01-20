@@ -97,6 +97,10 @@ li {
     height: 100%;
 }
 
+ul li a {
+    color: black;
+}
+
 .active {
     border-bottom: 5px solid dodgerblue;
     transform: translateY(3px);

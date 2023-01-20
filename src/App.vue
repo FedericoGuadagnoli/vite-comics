@@ -1,9 +1,10 @@
 <script>
 import AppLogo from './components/AppLogo.vue';
 import AppLink from './components/AppLink.vue';
+import AppActions from './components/AppActions.vue';
 export default {
   name: 'Vite DC Comiccs',
-  components: { AppLogo, AppLink }
+  components: { AppLogo, AppLink, AppActions }
 
 
 };
@@ -35,6 +36,7 @@ export default {
     <!-- Section Actions -->
     <section id="actions">
       <div class="container">
+        <App-Actions></App-Actions>
 
       </div>
     </section>
@@ -60,7 +62,6 @@ export default {
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 
