@@ -1,0 +1,53 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERICS */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER */
+header {
+    height: 150px;
+
+    .navbar {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+/* MAIN */
+#Content-Goes-Here {
+    height: 150px;
+    background-color: black;
+    color: white;
+    line-height: 150px;
+    vertical-align: middle;
+    margin-top: 3px;
+    font-size: 1.5rem;
+}
+
+#actions {
+    height: 180px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    height: 800px;
+}
