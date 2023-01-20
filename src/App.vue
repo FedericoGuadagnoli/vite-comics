@@ -1,5 +1,9 @@
 <script>
-
+import AppLogo from './components/AppLogo.vue';
+export default {
+  name: 'Vite DC Comiccs',
+  components: { AppLogo }
+};
 
 </script>
 
@@ -8,6 +12,7 @@
   <header>
     <div class="container">
       <div class="navbar">
+        <App-Logo></App-Logo>
 
       </div>
     </div>
@@ -29,18 +34,19 @@
 .container {
   width: 80%;
   margin: 0 auto;
+  height: 100%;
 }
 
 
 /* HEADER */
 header {
-  height: 100px;
+  height: 150px;
 }
 
 .navbar {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 </style>
