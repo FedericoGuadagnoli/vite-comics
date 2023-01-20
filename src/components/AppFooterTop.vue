@@ -122,7 +122,7 @@ export default {
 
 <style scoped>
 .footer-top {
-    height: 75%;
+    height: 80%;
     background-image: url(../assets/img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;

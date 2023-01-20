@@ -3,9 +3,10 @@ import AppLogo from './components/AppLogo.vue';
 import AppLink from './components/AppLink.vue';
 import AppActions from './components/AppActions.vue';
 import AppFooterTop from './components/AppFooterTop.vue';
+import AppFooterBottom from './components/AppFooterBottom.vue';
 export default {
   name: 'Vite DC Comiccs',
-  components: { AppLogo, AppLink, AppActions, AppFooterTop }
+  components: { AppLogo, AppLink, AppActions, AppFooterTop, AppFooterBottom }
 
 
 };
@@ -43,6 +44,7 @@ export default {
   </main>
   <footer>
     <App-FooterTop></App-FooterTop>
+    <App-FooterBottom></App-FooterBottom>
   </footer>
 
 </template>
