@@ -2,9 +2,10 @@
 import AppLogo from './components/AppLogo.vue';
 import AppLink from './components/AppLink.vue';
 import AppActions from './components/AppActions.vue';
+import AppFooterTop from './components/AppFooterTop.vue';
 export default {
   name: 'Vite DC Comiccs',
-  components: { AppLogo, AppLink, AppActions }
+  components: { AppLogo, AppLink, AppActions, AppFooterTop }
 
 
 };
@@ -41,9 +42,7 @@ export default {
     </section>
   </main>
   <footer>
-    <div class="container">
-
-    </div>
+    <App-FooterTop></App-FooterTop>
   </footer>
 
 </template>
@@ -88,6 +87,7 @@ header {
   line-height: 150px;
   vertical-align: middle;
   margin-top: 3px;
+  font-size: 1.5rem;
 }
 
 #actions {
@@ -98,6 +98,6 @@ header {
 
 /* FOOTER */
 footer {
-  height: 600px;
+  height: 800px;
 }
 </style>
