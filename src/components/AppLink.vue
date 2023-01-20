@@ -78,17 +78,17 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../assets/scss/mixins' as *;
+
 ul {
-    display: flex;
-    align-items: center;
+    @include center('');
     height: 100%;
 
     li {
         list-style-type: none;
         margin-right: 2rem;
         font-size: 1.25rem;
-        display: flex;
-        align-items: center;
+        @include center('');
         cursor: pointer;
         height: 100%;
 

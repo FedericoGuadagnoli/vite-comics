@@ -54,16 +54,15 @@ export default {
 
 
 <style lang="scss" scoped>
+@use '../assets/scss/mixins' as *;
+
 ul {
-    display: flex;
-    align-items: center;
+    @include center('between');
     height: 100%;
 
     li {
         list-style-type: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include center('center');
         gap: 1.25rem;
         flex-basis: calc(25% - 1.25rem);
         height: 60%;

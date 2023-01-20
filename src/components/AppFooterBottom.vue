@@ -29,20 +29,19 @@ export default {
 
 
 <style lang="scss" scoped>
+@use '../assets/scss/mixins' as *;
+
 .footer-bottom {
     background-color: #303030;
     height: 20%;
 
     .row {
         height: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include center('between');
 
         .col {
-            display: flex;
+            @include center('');
             gap: 2rem;
-            align-items: center;
             font-size: 1.25rem;
             text-transform: uppercase;
             color: rgb(16, 120, 224);

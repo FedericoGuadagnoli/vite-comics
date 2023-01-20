@@ -121,6 +121,8 @@ export default {
 
 
 <style lang="scss" scoped>
+@use '../assets/scss/mixins' as *;
+
 .footer-top {
     height: 80%;
     background-image: url(../assets/img/footer-bg.jpg);
@@ -129,9 +131,7 @@ export default {
 }
 
 .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include center('between');
     color: white;
     height: 100%;
 
