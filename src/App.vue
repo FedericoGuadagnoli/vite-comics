@@ -21,7 +21,13 @@ export default {
       </div>
     </div>
   </header>
-  <main></main>
+  <main>
+    <section id="Content-Goes-Here">
+      <div class="container">
+        <h1> -- Content goes here -- </h1>
+      </div>
+    </section>
+  </main>
   <footer></footer>
 
 </template>
@@ -57,5 +63,15 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+/* MAIN */
+#Content-Goes-Here {
+  height: 150px;
+  background-color: black;
+  color: white;
+  line-height: 150px;
+  vertical-align: middle;
+  margin-top: 3px;
 }
 </style>
