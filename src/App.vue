@@ -37,11 +37,18 @@ export default {
     <section id="actions">
       <div class="container">
         <App-Actions></App-Actions>
-
       </div>
     </section>
   </main>
-  <footer></footer>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+    </div>
+
+  </footer>
 
 </template>
 
@@ -91,5 +98,13 @@ header {
   height: 180px;
   background-color: dodgerblue;
   color: white;
+}
+
+/* FOOTER */
+footer {
+  height: 500px;
+  background-image: url(./assets/img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
