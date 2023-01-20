@@ -1,8 +1,11 @@
 <script>
 import AppLogo from './components/AppLogo.vue';
+import AppLink from './components/AppLink.vue';
 export default {
   name: 'Vite DC Comiccs',
-  components: { AppLogo }
+  components: { AppLogo, AppLink }
+
+
 };
 
 </script>
@@ -13,6 +16,7 @@ export default {
     <div class="container">
       <div class="navbar">
         <App-Logo></App-Logo>
+        <App-Link></App-Link>
 
       </div>
     </div>
@@ -35,6 +39,11 @@ export default {
   width: 80%;
   margin: 0 auto;
   height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 
