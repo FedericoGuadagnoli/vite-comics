@@ -42,12 +42,8 @@ export default {
   </main>
   <footer>
     <div class="container">
-      <div class="row">
-        <div class="col"></div>
-        <div class="col"></div>
-      </div>
-    </div>
 
+    </div>
   </footer>
 
 </template>
@@ -102,9 +98,6 @@ header {
 
 /* FOOTER */
 footer {
-  height: 500px;
-  background-image: url(./assets/img/footer-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 600px;
 }
 </style>
