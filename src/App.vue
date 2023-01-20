@@ -21,10 +21,21 @@ export default {
       </div>
     </div>
   </header>
+
+  <!-- Main -->
   <main>
+
+    <!-- Section Content goes here -->
     <section id="Content-Goes-Here">
       <div class="container">
         <h1> -- Content goes here -- </h1>
+      </div>
+    </section>
+
+    <!-- Section Actions -->
+    <section id="actions">
+      <div class="container">
+
       </div>
     </section>
   </main>
@@ -73,5 +84,11 @@ header {
   line-height: 150px;
   vertical-align: middle;
   margin-top: 3px;
+}
+
+#actions {
+  height: 180px;
+  background-color: dodgerblue;
+  color: white;
 }
 </style>
