@@ -6,6 +6,7 @@ import AppFooterTop from './components/AppFooterTop.vue';
 import AppFooterBottom from './components/AppFooterBottom.vue';
 import AppBanner from './components/AppBanner.vue';
 import AppMain from './components/AppMain.vue';
+import AppButton from './components/AppButton.vue';
 export default {
   name: 'Vite DC Comiccs',
   data() {
@@ -98,7 +99,7 @@ export default {
       ]
     }
   },
-  components: { AppLogo, AppLink, AppActions, AppFooterTop, AppFooterBottom, AppBanner, AppMain }
+  components: { AppLogo, AppLink, AppActions, AppFooterTop, AppFooterBottom, AppBanner, AppMain, AppButton }
 
 
 };
@@ -127,6 +128,7 @@ export default {
     <section id="Content-Goes-Here">
       <div class="container">
         <App-Main :cards="cards"></App-Main>
+        <App-Button></App-Button>
       </div>
     </section>
 
